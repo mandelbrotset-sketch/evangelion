@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/stranger-things-imdb/static/css/main.9739341e.chunk.css",
+    "main.js": "/stranger-things-imdb/static/js/main.5b590033.chunk.js",
+    "main.js.map": "/stranger-things-imdb/static/js/main.5b590033.chunk.js.map",
+    "runtime~main.js": "/stranger-things-imdb/static/js/runtime~main.8234e6d8.js",
+    "runtime~main.js.map": "/stranger-things-imdb/static/js/runtime~main.8234e6d8.js.map",
+    "static/js/2.560b5b3a.chunk.js": "/stranger-things-imdb/static/js/2.560b5b3a.chunk.js",
+    "static/js/2.560b5b3a.chunk.js.map": "/stranger-things-imdb/static/js/2.560b5b3a.chunk.js.map",
+    "index.html": "/stranger-things-imdb/index.html",
+    "precache-manifest.5a6c2d39e99f9e22b36ec3e56966c8c7.js": "/stranger-things-imdb/precache-manifest.5a6c2d39e99f9e22b36ec3e56966c8c7.js",
+    "service-worker.js": "/stranger-things-imdb/service-worker.js",
+    "static/css/main.9739341e.chunk.css.map": "/stranger-things-imdb/static/css/main.9739341e.chunk.css.map",
+    "static/media/imdb.png": "/stranger-things-imdb/static/media/imdb.621c4151.png",
+    "static/media/img1.png": "/stranger-things-imdb/static/media/img1.e0cd63a1.png",
+    "static/media/img2.jpg": "/stranger-things-imdb/static/media/img2.dc106746.jpg",
+    "static/media/img4.jpg": "/stranger-things-imdb/static/media/img4.23353fb8.jpg",
+    "static/media/img5.jpg": "/stranger-things-imdb/static/media/img5.bb5430f4.jpg",
+    "static/media/img6.jpg": "/stranger-things-imdb/static/media/img6.9db53c5f.jpg",
+    "static/media/Header.css": "/stranger-things-imdb/static/media/strangerthings-banner.a9743edd.png"
+  }
+}
