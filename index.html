@@ -16,7 +16,7 @@
         <div>
             <header style="background-image: url(./static/media/NeonGenesisEvangelionBaner.png)">
 
-                <div class="headerBasicInfo"><img src="./static/media/imdb.621c4151.png" alt="Imdb logo" class="img64">
+                <div class="headerBasicInfo"><img src="./static/media/imdb.621c4151.png" alt="logo" class="img64">
                     <div>
                         <p>Neon Genesis Evangelion</p>
                         <ul>
@@ -29,26 +29,47 @@
                 </div>
                 <div class="headerNavBar" style="background: rgba(70, 70, 70, 0.7) none repeat scroll 0% 0%;">
                     <ul>
-                        <li class="hover">Movie</li>
-                        <li class="hover">News</li>
-                        <li class="hover">Watchlist</li>
-                        <li class="hover">Search</li>
+                        <li class="hover">
+                            <a style="text-decoration:none" href="https://evangelion.fandom.com/wiki/Main_Page" target="_blank">Wiki</a>
+                        </li>
+                        <li class="hover">
+                            News
+                        </li>
+                        <li class="hover">
+                            Watchlist
+                        </li>
+                        <li class="hover">
+                            Search
+                        </li>
                     </ul>
                 </div>
                 <div class="headerWatchTrailer">
-                    <!-- <div class="button"> -->
-                    <img src="./static/media/neon-genesis-evangelion-poster.jpg" alt="Poster" class="imgposter">
-                    <!-- </div> -->
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/pVC0Qy_pbWk?mode=opaque&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;wmode=transparent" frameborder="0">
-                    </iframe> -->
+
+                    <a href="#img1">
+                        <img src="./static/media/neon-genesis-evangelion-poster.jpg" class="imgposter">
+                    </a>
+                    <a href="#_" class="lightbox" id="img1">
+                        <div id="videoModal" tabindex="-1" role="dialog" aria-hidden="false">
+                            <div class="modal-body">
+                                <iframe width="870" height="489" src="https://www.youtube.com/embed/2UjTU98UDvo" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </a>
+
                 </div>
                 <div class="headerInfo">
                     <div class="episodeGuide" style="background: rgba(70, 70, 70, 0.7) none repeat scroll 0% 0%;">
                         <div>
-                            <p>8.9<span>/10</span></p>
+                            <p>8.5<span>/10</span></p>
                         </div>
                         <form action="/">
-                            <p>Episode Guide</p><select name="episode_guide"><option>n options</option></select></form>
+                            <p>Canons</p>
+                            <select name="episode_guide">
+                                <option>Neon Genesis Evangelion</option>
+                                <option>The end of Evangelion  </option>
+                                <option>Rebuild of Evangelion  </option>
+                            </select>
+                        </form>
                     </div>
                     <div class="serieInfo" style="background: rgba(70, 70, 70, 0.7) none repeat scroll 0% 0%;">
                         <p>When a young boy disappears, his friends mother, a police chief, and his friends must confront terrifying forces in order to get him back.</p>
@@ -56,9 +77,10 @@
                         <p>Stars: <strong>Millie Bobby, Finn Wolfhard, Winona Ryder</strong></p>
                     </div>
                     <div class="addToWatchlist" style="background: rgba(50, 50, 50, 0.6) none repeat scroll 0% 0%;">
-                        <div class="button"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfjBwsBMAtwcx3RAAAAbElEQVRo3u3YMQqAMAwF0FTc7AG8/+m8gHNdOwmmYkHez5SlPFoypBHZ1Ghd1ewxSxrwUgAAAAAAAAAAAAAAAADW9Fa33XQPUqLNvYHpTwAAUAbG8Oi6Pc6v6f6IAAAAAAAAAAAAAAAA/gK4ALYSD84NIVCFAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE5LTA3LTEwVDIzOjQ4OjExKzAyOjAwJvQFswAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOS0wNy0xMFQyMzo0ODoxMSswMjowMFepvQ8AAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC"
+                        <div class="button">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfjBwsBMAtwcx3RAAAAbElEQVRo3u3YMQqAMAwF0FTc7AG8/+m8gHNdOwmmYkHez5SlPFoypBHZ1Ghd1ewxSxrwUgAAAAAAAAAAAAAAAADW9Fa33XQPUqLNvYHpTwAAUAbG8Oi6Pc6v6f6IAAAAAAAAAAAAAAAA/gK4ALYSD84NIVCFAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE5LTA3LTEwVDIzOjQ4OjExKzAyOjAwJvQFswAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOS0wNy0xMFQyMzo0ODoxMSswMjowMFepvQ8AAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC"
                                 alt="add to watchlists button">
-                            <p>Add to watchlists ?</p>
+                            <p>Add to watchlists</p>
                         </div>
                         <div>
                             <p>Reviews <br> <span>925 user | 168 critic</span></p>
@@ -109,6 +131,13 @@
     <script src="./static/js/2.560b5b3a.chunk.js"></script>
     <script src="./static/js/main.5b590033.chunk.js"></script>
 
+    <script>
+        // When the user clicks on div, open the popup
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+    </script>
 
 </body>
 

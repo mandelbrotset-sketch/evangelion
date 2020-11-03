@@ -26,7 +26,6 @@ header {
     grid-template-columns: 70% 30%;
     grid-template-rows: 100px 500px;
     grid-gap: 0;
-    background-image: url(./static/media/NeonGenesisEvangelionBaner.png);
     background-position: 50%;
     background-size: auto 100%;
     background-color: #000;
@@ -62,7 +61,7 @@ header {
 
 .headerBasicInfo p {
     font-weight: 700;
-    font-size: 1.5em
+    font-size: 2em
 }
 
 .headerNavBar {
@@ -77,6 +76,15 @@ header {
 }
 
 .headerNavBar ul li {
+    color: var(--main-color);
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px
+}
+
+.headerNavBar a {
     color: var(--main-color);
     font-weight: 700;
     text-align: center;
@@ -157,7 +165,7 @@ header {
 .episodeGuide form select {
     outline: none;
     border: none;
-    color: var(--main-color);
+    color: var(--secondary-color);
     padding: 5px 6px;
     border-radius: 5px;
     background: rgba(0, 0, 0, .4)
@@ -192,7 +200,7 @@ header {
 }
 
 .addToWatchlist .button p {
-    color: #000
+    color: var(--secondary-color)
 }
 
 .addToWatchlist div p {
@@ -212,29 +220,6 @@ header {
     padding: 10px;
     background: #000;
     border-radius: 10px
-}
-
-.youtubeTrailer {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, .4);
-    display: grid;
-    grid-template-rows: 10vh 90vh;
-    justify-content: center;
-    align-content: center
-}
-
-.youtubeTrailer iframe {
-    border: 10px solid #fff;
-    border-radius: 10px;
-    width: 700px;
-    height: 394px
-}
-
-.youtubeTrailer img {
-    justify-self: left;
-    align-self: center
 }
 
 @media screen and (max-width:768px) {
@@ -296,7 +281,8 @@ section {
     font-size: 3em;
     font-weight: 700;
     padding: 20px 40px;
-    box-sizing: border-box
+    box-sizing: border-box;
+    color: var(--secondary-color)
 }
 
 .photos ul:first-of-type {
@@ -378,10 +364,10 @@ section {
 }
 
 :root {
-    --main-color: #a5bdd6;
+    --main-color: #372021;
     --secondary-color: #fbfdff;
-    --title-color: #6f4fa2;
-    --text-color: #616970
+    --title-color: #765898;
+    --text-color: #d3290f
 }
 
 .button img,
@@ -400,6 +386,59 @@ section {
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, .8)
+}
+
+
+/* Popup container - can be anything you want */
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* The actual popup */
+
+.lightbox {
+    /** Default lightbox to hidden */
+    display: none;
+    /** Position and style */
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox:target {
+    /** Remove default browser outline */
+    outline: none;
+    /** Unhide lightbox **/
+    display: block;
+}
+
+
+/** videoModal **/
+
+#videoModal {
+    border-radius: 100;
+    width: 1000px;
+    margin: auto;
+}
+
+#videoModal .modal-body {
+    height: 600px;
+    padding: 4em;
+    max-height: none;
+    overflow: hidden;
 }
 
 ul {
